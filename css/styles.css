@@ -10,6 +10,7 @@
 
 		box-sizing: border-box;
 	}
+
 	.wrapper {
 		
 		width: 1270px;
@@ -25,7 +26,7 @@
 		
 	}
 
-	.main-menu{
+	.main-menu {
 		text-align: left;
 		background: pink;
 		border-radius: 10px;
@@ -38,7 +39,7 @@
 
 	}
 
-	.main-menu ul li{
+	.main-menu ul li {
 		display: inline-block;
 		margin: 0 20px;
 		text-transform: uppercase;
@@ -47,7 +48,7 @@
 
 	}
 
-	.main-menu ul li a{
+	.main-menu ul li a {
 		color: #000;
 		text-decoration: none;
 
@@ -57,7 +58,7 @@
 		color: red;
 	}
 
-	.main{	
+	.main {	
 		background: #fff;
 		width: 70%;
 		min-height: 500px;
@@ -67,7 +68,7 @@
 
 	}
 
-	.sidebar{
+	.sidebar { 
 		background: #fff;
 		width: 28%;
 		min-height: 500px;
@@ -77,10 +78,73 @@
 		border-radius: 10px;	
 	}
 
-	.page-footer{
+	.page-footer {
 		background: #fff;
 		width: 100%;
 		margin-top: 10px;
 		padding: 10px;
 		
+	}
+
+	.fieldset{
+
+		border: solid 1px #ccc;
+
+	}
+
+
+	.field {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+
+	}
+
+	.field label {
+		display: block;
+		width: 100%;
+		font-weight: bold;
+
+	}
+
+	.field input{
+		width: 500px;
+		height: 40px;
+		border:solid 1px #ccc;
+		padding: 0px 10px;
+
+
+	}
+
+	.field textarea{
+		width: 600px;
+		min-height: 300px;
+		border:solid 1px #ccc;
+		padding: 10px;
+
+
+	}
+
+	.button	{
+		background: #fff;
+		padding: 8px 12px;
+		border: solid 1px #ccc;
+		font-size: 16px;
+		text-align: center;
+	}
+
+
+	.button-secondary{
+
+
+
+	}
+
+	.button-primary{
+		background: green;
+		color: #fff;
+		font-weight: bolder;
+		width: 200px;
+		border: solid 1px green;
+		float: right;
 	}
