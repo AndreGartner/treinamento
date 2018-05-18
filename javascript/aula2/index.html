@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Main.js</title>
+
+
+
+	</head>
+
+	<body>
+
+		<h1>Titulo da Pagina</h1>
+
+		<button id="addButton" class="btn" 
+		onmouseenter="changeBg (this, 'red')" 
+		onmouseleave="changeBg (this, '#4caf50')"
+		onclick="openModal ()">
+
+
+		Adicionar ao Carrinho
+
+		</button>
+
+		<div class="modal" id="my-modal">
+			
+			<div class="modal-content">
+				
+				<h1 class="modal-title">Meu incrível Modal</h1>
+
+				<p>Meu modal é legal</p>
+
+				<button id="close-modal" class="btn" onclick="closeModal ()">
+					Modal
+				</button>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+
+
+	</body>
+
+</html>
